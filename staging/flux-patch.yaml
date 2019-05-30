@@ -13,5 +13,5 @@ spec:
       $setElementOrder/containers:
       - name: podinfod
       containers:
-      - image: stefanprodan/podinfo:3301f6f
+      - image: stefanprodan/podinfo:1.5.1
         name: podinfod
