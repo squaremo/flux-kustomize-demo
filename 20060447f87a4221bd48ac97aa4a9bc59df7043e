@@ -1,0 +1,1 @@
+{"jobID":"619d6640-973f-c935-0742-81e982b4d93c","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmikeb@squaremobius.net\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"automated":"true"},"remove":{}}}},"result":null}
