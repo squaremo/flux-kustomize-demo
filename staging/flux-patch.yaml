@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   annotations:
     flux.weave.works/automated: "true"
+    flux.weave.works/tag.podinfod: semver:1.5.x
   name: podinfo
   namespace: demo
 spec:
