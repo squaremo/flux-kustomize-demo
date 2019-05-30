@@ -6,3 +6,11 @@ metadata:
     flux.weave.works/automated: "true"
   name: podinfo
   namespace: demo
+spec:
+  template:
+    spec:
+      $setElementOrder/containers:
+      - name: podinfod
+      containers:
+      - image: stefanprodan/podinfo:3301f6f
+        name: podinfod
